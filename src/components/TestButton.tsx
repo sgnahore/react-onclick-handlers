@@ -1,10 +1,12 @@
 function TestButton(): JSX.Element {
- function handleClick() {
+ const handleClick = () => {
   console.log("Let me tell you something");
  }
  
   return (
-  <button onClick={handleClick}>A cheeky test</button>
+  <button onClick={handleClick}>
+    A cheeky test round 2
+    </button>
   );
 }
 
